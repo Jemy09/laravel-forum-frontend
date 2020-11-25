@@ -1,17 +1,17 @@
 {
-    "name": "riari/laravel-forum-frontend",
-    "description": "A frontend for riari/laravel-forum providing views written with Bootstrap 3",
-    "keywords": ["laravel", "laravel-4", "laravel-5", "forum", "discuss", "frontend"],
+    "name": "jemy09/laravel-forum-frontend",
+    "description": "A frontend for jemy09/laravel-forum providing views written with Bootstrap 3",
+    "keywords": ["laravel", "laravel-4", "laravel-5", "laravel-6", "forum", "discuss", "frontend"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Riari",
-            "email": "riari@teamteatime.net"
+            "name": "Jemy09",
+            "email": "admin@jemarea.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "riari/laravel-forum": "3.0 - 4.2"
+        "php": ">=7.1.0",
+        "jemy09/laravel-forum": "master"
     },
     "autoload": {
         "psr-4": {

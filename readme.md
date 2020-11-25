@@ -9,13 +9,13 @@
 Install the package via composer:
 
 ```
-composer require riari/laravel-forum-frontend:~1.0
+composer require jemy09/laravel-forum-frontend:~1.0
 ```
 
 Then add the service provider to your `config/app.php`:
 
 ```php
-Riari\Forum\Frontend\ForumFrontendServiceProvider::class,
+Jemy09\Forum\Frontend\ForumFrontendServiceProvider::class,
 ```
 
 ### Step 2: Publish the package files

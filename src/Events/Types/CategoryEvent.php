@@ -1,6 +1,6 @@
-<?php namespace Riari\Forum\Frontend\Events\Types;
+<?php namespace Jemy09\Forum\Frontend\Events\Types;
 
-use Riari\Forum\Models\Category;
+use Jemy09\Forum\Models\Category;
 
 class CategoryEvent
 {

@@ -1,10 +1,10 @@
-<?php namespace Riari\Forum\Frontend\Http\Controllers;
+<?php namespace Jemy09\Forum\Frontend\Http\Controllers;
 
 use Forum;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
-use Riari\Forum\Frontend\Events\UserViewingCategory;
-use Riari\Forum\Frontend\Events\UserViewingIndex;
+use Jemy09\Forum\Frontend\Events\UserViewingCategory;
+use Jemy09\Forum\Frontend\Events\UserViewingIndex;
 
 class CategoryController extends BaseController
 {

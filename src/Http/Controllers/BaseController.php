@@ -1,4 +1,4 @@
-<?php namespace Riari\Forum\Frontend\Http\Controllers;
+<?php namespace Jemy09\Forum\Frontend\Http\Controllers;
 
 use Forum;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Collection;
-use Riari\Forum\API\Dispatcher;
-use Riari\Forum\Contracts\API\ReceiverContract;
+use Jemy09\Forum\API\Dispatcher;
+use Jemy09\Forum\Contracts\API\ReceiverContract;
 
 abstract class BaseController extends Controller implements ReceiverContract
 {

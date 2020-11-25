@@ -1,12 +1,12 @@
-<?php namespace Riari\Forum\Frontend;
+<?php namespace Jemy09\Forum\Frontend;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Riari\Forum\Frontend\Events\UserViewingThread;
-use Riari\Forum\Frontend\Listeners\MarkThreadAsRead;
-use Riari\Forum\Frontend\Support\Forum;
+use Jemy09\Forum\Frontend\Events\UserViewingThread;
+use Jemy09\Forum\Frontend\Listeners\MarkThreadAsRead;
+use Jemy09\Forum\Frontend\Support\Forum;
 
 class ForumFrontendServiceProvider extends ServiceProvider
 {

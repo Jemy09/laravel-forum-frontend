@@ -1,9 +1,9 @@
-<?php namespace Riari\Forum\Frontend\Support;
+<?php namespace Jemy09\Forum\Frontend\Support;
 
 use Illuminate\Routing\Router;
-use Riari\Forum\Models\Category;
-use Riari\Forum\Models\Post;
-use Riari\Forum\Models\Thread;
+use Jemy09\Forum\Models\Category;
+use Jemy09\Forum\Models\Post;
+use Jemy09\Forum\Models\Thread;
 use Session;
 
 class Forum

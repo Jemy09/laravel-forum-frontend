@@ -1,6 +1,6 @@
-<?php namespace Riari\Forum\Frontend\Events\Types;
+<?php namespace Jemy09\Forum\Frontend\Events\Types;
 
-use Riari\Forum\Models\Thread;
+use Jemy09\Forum\Models\Thread;
 
 class ThreadEvent
 {

@@ -1,10 +1,10 @@
-<?php namespace Riari\Forum\Frontend\Http\Controllers;
+<?php namespace Jemy09\Forum\Frontend\Http\Controllers;
 
 use Forum;
 use Illuminate\Http\Request;
-use Riari\Forum\Frontend\Events\UserCreatingPost;
-use Riari\Forum\Frontend\Events\UserEditingPost;
-use Riari\Forum\Frontend\Events\UserViewingPost;
+use Jemy09\Forum\Frontend\Events\UserCreatingPost;
+use Jemy09\Forum\Frontend\Events\UserEditingPost;
+use Jemy09\Forum\Frontend\Events\UserViewingPost;
 
 class PostController extends BaseController
 {

@@ -1,6 +1,6 @@
-<?php namespace Riari\Forum\Frontend\Events;
+<?php namespace Jemy09\Forum\Frontend\Events;
 
-use Riari\Forum\Frontend\Events\Types\CategoryEvent;
+use Jemy09\Forum\Frontend\Events\Types\CategoryEvent;
 
 class UserCreatingThread extends CategoryEvent
 {

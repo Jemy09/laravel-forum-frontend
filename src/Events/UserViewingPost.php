@@ -1,6 +1,6 @@
-<?php namespace Riari\Forum\Frontend\Events;
+<?php namespace Jemy09\Forum\Frontend\Events;
 
-use Riari\Forum\Frontend\Events\Types\PostEvent;
+use Jemy09\Forum\Frontend\Events\Types\PostEvent;
 
 class UserViewingPost extends PostEvent
 {
